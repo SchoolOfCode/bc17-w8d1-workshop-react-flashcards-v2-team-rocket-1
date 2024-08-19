@@ -19,15 +19,19 @@ App
 - Test that all component display properly in the browser before continuing. ✅
 - Create individual Flashcard components and hard code some "flashCards" data in the App component to begin with.
   - create const obj arr flashCardData with card data of question and answer ✅
-  - return a question h?, and answer h?
-  - create flashcard component
-  - .map flashCardData into Flashcard component with perams/props of flashCard and index
-  - pass as props the object dot notated as flashCard.question and flashCard.answer to get from flashCardData
-- pass props to create different repeatable flashcards
+  - .map flashCardData into Flashcard component with perams/props of flashCard and index ✅
+  - pass as props the object dot notated as flashCard.question and flashCard.answer to get from flashCardData ✅
+  - create flashcard component✅
+  - return a question h?, and answer h? ✅
+- pass props to create different repeatable flashcards ✅
 
 # Step 2
 
-- Flashcard state
+- import useState ✅
+- Add a state and state Function (function that changes the state) in the Flashcard file ✅
+- Add an eventlistner in the div block ✅
+- create an event handler that changes the state from 'open'  to 'close' ✅
+- Within useEffect, add logic that hides the question and shows the answer when the state goes from close to open ✅
 
 # Step 3
 
@@ -36,3 +40,10 @@ App
 # Step 4
 
 - Form state
+
+
+
+<!-- 
+We want a box that has the question on it
+When clicked, show the answer
+-->
