@@ -6,7 +6,7 @@
 - Eventually, we want end up with a component tree that looks like this:
 
 App
-├── Header 
+├── Header
 ├── Form
 ├── Flashcards
 │ └── Flashcard
@@ -18,17 +18,21 @@ App
 - Move to seperate components ✅
 - Test that all component display properly in the browser before continuing. ✅
 - Create individual Flashcard components and hard code some "flashCards" data in the App component to begin with.
- - create const obj arr flashCardData with card data of question and answer
- - return an question h?, and answer h?
- - create flashcard component
- - .map flashCardData into Flashcard component with perams/props of flashCard and index
- - pass as props the object dot notated as flashCard.question and flashCard.answer to get from flashCardData
+  - create const obj arr flashCardData with card data of question and answer ✅
+  - return a question h?, and answer h?
+  - create flashcard component
+  - .map flashCardData into Flashcard component with perams/props of flashCard and index
+  - pass as props the object dot notated as flashCard.question and flashCard.answer to get from flashCardData
 - pass props to create different repeatable flashcards
 
 # Step 2
 
-- Once those components are done, then move on to create a Form component.
+- Flashcard state
 
 # Step 3
 
-- TODO: STATE STEPS GO HERE
+- Once those components are done, then move on to create a Form component.
+
+# Step 4
+
+- Form state
