@@ -31,13 +31,13 @@ App
 - Add a state and state Function (function that changes the state) in the Flashcard file ✅
 - Add an eventlistner in the div block ✅
 - create an event handler that changes the state from 'open'  to 'close' ✅
-- Within useEffect, add logic that hides the question and shows the answer when the state goes from close to open ✅
+- Use conditional rendering that hides the question and shows the answer when the state goes from close to open ✅
 
 ##
 
 - Move flashcardData to app.jsx ✅
-- Create state for that
-- Move state via props down to Flashcards
+- Create state for that ✅
+- Move state via props down to Flashcards ✅
 
 # Step 3
 
@@ -46,6 +46,18 @@ App
 # Step 4
 
 - Form state
+ - Create a Form folder in components 
+ - Create a Form component 
+ - Inside the Form component add a form JSX element 
+  - Question section
+    - Inside that add a label JSX element with a 'for' and 'name' attributes
+    - After, add an input JSX element with a 'type', 'id', 'name' attributes 
+    - Add
+  - Answer section 
+    - Inside that add a label JSX element with a 'for' and 'name' attributes
+    - After, add an input JSX element with a 'type', 'id', 'name' attributes 
+  - Button section 
+    - Add a button with 'type' attribute. 
 
 
 
