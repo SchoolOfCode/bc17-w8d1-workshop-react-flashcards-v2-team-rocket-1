@@ -33,6 +33,12 @@ App
 - create an event handler that changes the state from 'open'  to 'close' ✅
 - Within useEffect, add logic that hides the question and shows the answer when the state goes from close to open ✅
 
+##
+
+- Move flashcardData to app.jsx ✅
+- Create state for that
+- Move state via props down to Flashcards
+
 # Step 3
 
 - Once those components are done, then move on to create a Form component.
